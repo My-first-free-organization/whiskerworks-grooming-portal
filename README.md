@@ -1,2 +1,8 @@
 # whiskerworks-grooming-portal
-WhiskerWorks grooming portal: part of the cat-commerce platform
+
+Owns the **grooming** domain of WhiskerWorks.
+
+## Run
+```bash
+npm ci && npm run dev
+```
