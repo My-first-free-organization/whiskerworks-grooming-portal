@@ -1,4 +1,4 @@
 # Changelog
 
-## 0.3.0
-- grooming improvements batch 2
+## 0.4.0
+- grooming improvements batch 3
