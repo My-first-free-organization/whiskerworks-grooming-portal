@@ -9,7 +9,7 @@ export interface TunnelRequest {
 
 export class TunnelService {
   private readonly log = new Logger('tunnel');
-  private readonly maxRetries = 2;
+  private readonly maxRetries = 4;
 
   async handle(req: TunnelRequest): Promise<boolean> {
     if (!req.sku || req.quantity <= 0) {
